@@ -12,6 +12,8 @@ namespace CarRentalApp
 {
     public partial class MainWindow : Form
     {
+        // Need to add function to Utils to check for open windows.
+
         private Login _login;
         public string _roleName;
         public User _user;
